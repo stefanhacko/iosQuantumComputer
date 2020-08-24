@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4241A70814DD7AA100149103 /* QGates.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241A70714DD7AA100149103 /* QGates.m */; };
+		4257061E130C244500C34E43 /* Working.png in Resources */ = {isa = PBXBuildFile; fileRef = 4257061D130C244500C34E43 /* Working.png */; };
+		4297A22C12DA397000BF27F6 /* AlertWithText.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297A22B12DA397000BF27F6 /* AlertWithText.m */; };
+		42C63D9712D096B6003FE424 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C63D9612D096B6003FE424 /* UIKit.framework */; };
+		42C63D9912D096B6003FE424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C63D9812D096B6003FE424 /* Foundation.framework */; };
+		42C63D9B12D096B6003FE424 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C63D9A12D096B6003FE424 /* CoreGraphics.framework */; };
+		42C63DA012D096B6003FE424 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42C63D9E12D096B6003FE424 /* InfoPlist.strings */; };
+		42C63DA212D096B6003FE424 /* Quantum_Computer_Simpulator-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DA112D096B6003FE424 /* Quantum_Computer_Simpulator-main.m */; };
+		42C63DA512D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DA412D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.m */; };
+		42C63DA812D096B6003FE424 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C63DA612D096B6003FE424 /* MainWindow.xib */; };
+		42C63DAB12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DAA12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.m */; };
+		42C63DAE12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C63DAC12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.xib */; };
+		42C63DBE12D096DE003FE424 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DB512D096DE003FE424 /* Complex.m */; };
+		42C63DBF12D096DE003FE424 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DB712D096DE003FE424 /* Matrix.m */; };
+		42C63DC012D096DE003FE424 /* QBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DB912D096DE003FE424 /* QBits.m */; };
+		42C63DC112D096DE003FE424 /* QComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C63DBB12D096DE003FE424 /* QComputer.m */; };
+		42CCF7A912DA573D0081C3F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CCF7A712DA573D0081C3F3 /* Default.png */; };
+		42CCF7AA12DA573D0081C3F3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CCF7A812DA573D0081C3F3 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4241A70614DD7AA100149103 /* QGates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGates.h; sourceTree = "<group>"; };
+		4241A70714DD7AA100149103 /* QGates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGates.m; sourceTree = "<group>"; };
+		4257061D130C244500C34E43 /* Working.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Working.png; sourceTree = "<group>"; };
+		4297A22A12DA397000BF27F6 /* AlertWithText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertWithText.h; sourceTree = "<group>"; };
+		4297A22B12DA397000BF27F6 /* AlertWithText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertWithText.m; sourceTree = "<group>"; };
+		42C63D9312D096B6003FE424 /* Quantum Computer Simpulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum Computer Simpulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C63D9612D096B6003FE424 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42C63D9812D096B6003FE424 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42C63D9A12D096B6003FE424 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42C63D9C12D096B6003FE424 /* Quantum_Computer_Simpulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quantum_Computer_Simpulator-Info.plist"; sourceTree = "<group>"; };
+		42C63D9D12D096B6003FE424 /* Quantum_Computer_Simpulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quantum_Computer_Simpulator-Prefix.pch"; sourceTree = "<group>"; };
+		42C63D9F12D096B6003FE424 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42C63DA112D096B6003FE424 /* Quantum_Computer_Simpulator-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Quantum_Computer_Simpulator-main.m"; sourceTree = "<group>"; };
+		42C63DA312D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quantum_Computer_SimpulatorAppDelegate.h; sourceTree = "<group>"; };
+		42C63DA412D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quantum_Computer_SimpulatorAppDelegate.m; sourceTree = "<group>"; };
+		42C63DA712D096B6003FE424 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		42C63DA912D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quantum_Computer_SimpulatorViewController.h; sourceTree = "<group>"; };
+		42C63DAA12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quantum_Computer_SimpulatorViewController.m; sourceTree = "<group>"; };
+		42C63DAD12D096B6003FE424 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Quantum_Computer_SimpulatorViewController.xib; sourceTree = "<group>"; };
+		42C63DB412D096DE003FE424 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		42C63DB512D096DE003FE424 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		42C63DB612D096DE003FE424 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		42C63DB712D096DE003FE424 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+		42C63DB812D096DE003FE424 /* QBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBits.h; sourceTree = "<group>"; };
+		42C63DB912D096DE003FE424 /* QBits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBits.m; sourceTree = "<group>"; };
+		42C63DBA12D096DE003FE424 /* QComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QComputer.h; sourceTree = "<group>"; };
+		42C63DBB12D096DE003FE424 /* QComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QComputer.m; sourceTree = "<group>"; };
+		42CCF7A712DA573D0081C3F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Classes/Default.png; sourceTree = "<group>"; };
+		42CCF7A812DA573D0081C3F3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Classes/Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C63D9012D096B6003FE424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C63D9712D096B6003FE424 /* UIKit.framework in Frameworks */,
+				42C63D9912D096B6003FE424 /* Foundation.framework in Frameworks */,
+				42C63D9B12D096B6003FE424 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C63D8412D096B6003FE424 = {
+			isa = PBXGroup;
+			children = (
+				42C63D8B12D096B6003FE424 /* Classes */,
+				42C63D8C12D096B6003FE424 /* Other Sources */,
+				42C63D8D12D096B6003FE424 /* Resources */,
+				42C63D8E12D096B6003FE424 /* Frameworks */,
+				42C63D9412D096B6003FE424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C63D8B12D096B6003FE424 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4241A70614DD7AA100149103 /* QGates.h */,
+				4241A70714DD7AA100149103 /* QGates.m */,
+				4297A22A12DA397000BF27F6 /* AlertWithText.h */,
+				4297A22B12DA397000BF27F6 /* AlertWithText.m */,
+				42C63DB412D096DE003FE424 /* Complex.h */,
+				42C63DB512D096DE003FE424 /* Complex.m */,
+				42C63DB612D096DE003FE424 /* Matrix.h */,
+				42C63DB712D096DE003FE424 /* Matrix.m */,
+				42C63DB812D096DE003FE424 /* QBits.h */,
+				42C63DB912D096DE003FE424 /* QBits.m */,
+				42C63DBA12D096DE003FE424 /* QComputer.h */,
+				42C63DBB12D096DE003FE424 /* QComputer.m */,
+				42C63DA312D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.h */,
+				42C63DA412D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.m */,
+				42C63DA912D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.h */,
+				42C63DAA12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		42C63D8C12D096B6003FE424 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42C63D9D12D096B6003FE424 /* Quantum_Computer_Simpulator-Prefix.pch */,
+				42C63DA112D096B6003FE424 /* Quantum_Computer_Simpulator-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		42C63D8D12D096B6003FE424 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4257061D130C244500C34E43 /* Working.png */,
+				42CCF7A712DA573D0081C3F3 /* Default.png */,
+				42CCF7A812DA573D0081C3F3 /* Icon.png */,
+				42C63D9C12D096B6003FE424 /* Quantum_Computer_Simpulator-Info.plist */,
+				42C63D9E12D096B6003FE424 /* InfoPlist.strings */,
+				42C63DA612D096B6003FE424 /* MainWindow.xib */,
+				42C63DAC12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42C63D8E12D096B6003FE424 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C63D9612D096B6003FE424 /* UIKit.framework */,
+				42C63D9812D096B6003FE424 /* Foundation.framework */,
+				42C63D9A12D096B6003FE424 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42C63D9412D096B6003FE424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C63D9312D096B6003FE424 /* Quantum Computer Simpulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42C63D9212D096B6003FE424 /* Quantum Computer Simpulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C63DB112D096B6003FE424 /* Build configuration list for PBXNativeTarget "Quantum Computer Simpulator" */;
+			buildPhases = (
+				42C63D8F12D096B6003FE424 /* Sources */,
+				42C63D9012D096B6003FE424 /* Frameworks */,
+				42C63D9112D096B6003FE424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quantum Computer Simpulator";
+			productName = "Quantum Computer Simpulator";
+			productReference = 42C63D9312D096B6003FE424 /* Quantum Computer Simpulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C63D8612D096B6003FE424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 42C63D8912D096B6003FE424 /* Build configuration list for PBXProject "Quantum Computer Simpulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42C63D8412D096B6003FE424;
+			productRefGroup = 42C63D9412D096B6003FE424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C63D9212D096B6003FE424 /* Quantum Computer Simpulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C63D9112D096B6003FE424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C63DA012D096B6003FE424 /* InfoPlist.strings in Resources */,
+				42C63DA812D096B6003FE424 /* MainWindow.xib in Resources */,
+				42C63DAE12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.xib in Resources */,
+				42CCF7A912DA573D0081C3F3 /* Default.png in Resources */,
+				42CCF7AA12DA573D0081C3F3 /* Icon.png in Resources */,
+				4257061E130C244500C34E43 /* Working.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C63D8F12D096B6003FE424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C63DA212D096B6003FE424 /* Quantum_Computer_Simpulator-main.m in Sources */,
+				42C63DA512D096B6003FE424 /* Quantum_Computer_SimpulatorAppDelegate.m in Sources */,
+				42C63DAB12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.m in Sources */,
+				42C63DBE12D096DE003FE424 /* Complex.m in Sources */,
+				42C63DBF12D096DE003FE424 /* Matrix.m in Sources */,
+				42C63DC012D096DE003FE424 /* QBits.m in Sources */,
+				42C63DC112D096DE003FE424 /* QComputer.m in Sources */,
+				4297A22C12DA397000BF27F6 /* AlertWithText.m in Sources */,
+				4241A70814DD7AA100149103 /* QGates.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42C63D9E12D096B6003FE424 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C63D9F12D096B6003FE424 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42C63DA612D096B6003FE424 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C63DA712D096B6003FE424 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		42C63DAC12D096B6003FE424 /* Quantum_Computer_SimpulatorViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42C63DAD12D096B6003FE424 /* en */,
+			);
+			name = Quantum_Computer_SimpulatorViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42C63DAF12D096B6003FE424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42C63DB012D096B6003FE424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		42C63DB212D096B6003FE424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quantum_Computer_Simpulator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Quantum_Computer_Simpulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42C63DB312D096B6003FE424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stefan Hacko (436KL28K5M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quantum_Computer_Simpulator-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Quantum_Computer_Simpulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "709E8C6F-D5DC-4861-A4CF-58A395E8D793";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42C63D8912D096B6003FE424 /* Build configuration list for PBXProject "Quantum Computer Simpulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C63DAF12D096B6003FE424 /* Debug */,
+				42C63DB012D096B6003FE424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C63DB112D096B6003FE424 /* Build configuration list for PBXNativeTarget "Quantum Computer Simpulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C63DB212D096B6003FE424 /* Debug */,
+				42C63DB312D096B6003FE424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C63D8612D096B6003FE424 /* Project object */;
+}
